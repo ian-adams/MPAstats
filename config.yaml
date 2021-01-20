@@ -41,42 +41,42 @@ taxonomies:
   group: ""
   category: ""
 params:
-  author: Andrew Heiss
+  author: Ian Adams
   thumbnail: /images/stats_meta.png
   instructor: 
-    name: Dr. Andrew Heiss
-    email: andrew_heiss@byu.edu
-    url: "https://www.andrewheiss.com"
-    twitter: andrewheiss
-    github: andrewheiss
-    office: 639 TNRB
+    name: Ian T. Adams
+    email: ian.adams@utah.edu
+    url: "https://www.ianadamsresearch.com"
+    twitter: LiminalMori
+    github: ian-adams
+    office: Homebase
   course:
-    number: MPA 630
-    semester: Fall 2018
-    days: "Thursdays"
-    time: "7:35–9:45 PM"
-    location: "417 SLC"
-    twitter: andrewheiss
-    dates: "September 6–December 13, 2018"
-    github: "andrewheiss/statsf18.classes.andrewheiss.com"
-    copyrightYear: "2018"
+    number: PUBPL 6002
+    semester: Spring 2021
+    days: "Any Day - Asynchronous"
+    time: "Any Time - Asynchronous"
+    location: "Online"
+    twitter: LiminalMori
+    dates: "January 19–May 4, 2021"
+    github: "ian-adams/MPAstats"
+    copyrightYear: "2021"
     contactDetails: >-
       Office hours: [Sign up here.](https://calendly.com/andrewheiss/meeting/)<br><br>E-mail is the best way to get in contact with me—I will respond to all course-related e-mails within 24 hours (*really*).
   university: 
-    name: Brigham Young University
-    url: "https://www.byu.edu"
+    name: University of Utah
+    url: "https://www.utah.edu"
   school:
-    name: Romney Institute of Public Service and Ethics
-    url: "https://marriottschool.byu.edu/mpa/"
+    name: Department of Political Science
+    url: "https://mpp.utah.edu/"
   description: "Use modern statistical and data scientific tools to work with data and improve public management, administration, and policy"
   primaryColor: "#D46600"
   secondaryColor: "#F6E03F"
   credits: >-
-    Hex icon by Andrew Heiss. Color scheme adapted from [October Roads](http://www.colourlovers.com/palette/582235/October_Roads).<br>Course content adapted in part from [MATH 116 (Albert Kim)](https://rudeboybert.github.io/MATH116/), [STA 199 (Mine Çetinkaya-Rundel)](https://www2.stat.duke.edu/courses/Spring18/Sta199/), [SOC 301 (Chester Ismay)](https://ismayc.github.io/soc301_s2017/), and [CONJ 620 (Alison Presmanes Hill)](https://ohsu-conj620.netlify.com/).
+    Hex icon by Andrew Heiss. Course materials and design from [Andrew Heiss](https://www.andrewheiss.com/). Color scheme adapted from [October Roads](http://www.colourlovers.com/palette/582235/October_Roads).<br>Course content adapted in part from [MATH 116 (Albert Kim)](https://rudeboybert.github.io/MATH116/), [STA 199 (Mine Çetinkaya-Rundel)](https://www2.stat.duke.edu/courses/Spring18/Sta199/), [SOC 301 (Chester Ismay)](https://ismayc.github.io/soc301_s2017/), and [CONJ 620 (Alison Presmanes Hill)](https://ohsu-conj620.netlify.com/).
   logo:
     url: /images/stats_hires.png
     alt: Data Science for Public Management
   meta:
-    twitterSite: "@andrewheiss"
-    twitterCreator: "@andrewheiss"
-    fbAuthor: "https://www.facebook.com/andrewheiss"
+    twitterSite: "@LiminalMori"
+    twitterCreator: "@LiminalMori"
+    fbAuthor: ""
