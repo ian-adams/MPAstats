@@ -2,7 +2,7 @@
 
 ## Intent
 
-This is a class under development, using materials and design from [Andrew Heiss](), who first taught this course at our much beloved and nearby cousin BYU. 
+This is a class under development, using materials and design from [Andrew Heiss](https://www.andrewheiss.com), who first taught this course at our much beloved and nearby cousin BYU. 
 
 ## Theme
 

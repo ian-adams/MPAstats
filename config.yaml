@@ -80,3 +80,8 @@ params:
     twitterSite: "@LiminalMori"
     twitterCreator: "@LiminalMori"
     fbAuthor: ""
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
