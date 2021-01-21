@@ -1,8 +1,12 @@
-# MPA 630: Data Science for Public Management
+# PUBPL 6002: Public Management, Data Science, and R
+
+## Intent
+
+This is a class under development, using materials and design from [Andrew Heiss](), who first taught this course at our much beloved and nearby cousin BYU. 
 
 ## Theme
 
-This site uses my custom [`ath-tufte-hugo_18-19` theme](https://github.com/andrewheiss/ath-tufte-hugo_18-19) as a submodule.
+This site uses [Andrew Heiss' custom `ath-tufte-hugo_18-19` theme](https://github.com/andrewheiss/ath-tufte-hugo_18-19) as a submodule.
 
 When cloning for the first time, use this command to get the theme too:
 
