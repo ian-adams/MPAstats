@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classes on Data Science for Public Management</title>
+    <link>https://statsf18.classes.andrewheiss.com/class/</link>
+    <description>Recent content in Classes on Data Science for Public Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://statsf18.classes.andrewheiss.com/class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wrapping up and going beyond the basics</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/14-class/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/14-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Inference, regression, and stories</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/13-class/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/13-class/</guid>
+      <description>ContentsSlidesClearest and muddiest thingsSlidesDownload the slides from today’s lecture:
+ PDF (best option) PowerPointClearest and muddiest thingsGo to this form and answer these three questions:
+What was the muddiest thing from class today? What are you still wondering about?What was the clearest thing from class today?What was the most exciting thing you learned?</description>
+    </item>
+    
+    <item>
+      <title>Answers to regression and inference</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/12-class-answers/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/12-class-answers/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Inference and regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/12-class/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/12-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Hypothesis testing</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/11-class/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/11-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Bootstrapping and confidence intervals</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/10-class/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/10-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Sampling</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/09-class/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/09-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Regression diagnostics and prediction</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/08-class/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/08-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Multiple regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/07-class/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/07-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Correlation and basic regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/06-class/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/06-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Data wrangling with the Tidyverse II</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/05-class/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/05-class/</guid>
+      <description>ContentsSlides2016 elections, food security, and mortalitySetting up your projectQuestionsClearest and muddiest thingsSlidesDownload the slides from today’s lecture:
+ PDF (best option) PowerPoint2016 elections, food security, and mortalitySetting up your project(Practice makes perfect!)
+Do the following:
+Create a new RStudio project named “elections-food-death” (or something) and put it somewhere on your computer.</description>
+    </item>
+    
+    <item>
+      <title>Data wrangling with the Tidyverse I</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/04-class/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/04-class/</guid>
+      <description>ContentsSlidesAnswer your own questionsSetting up your projectQuestionsClearest and muddiest thingsSlidesDownload the slides from today’s lecture:
+ PDF (best option) PowerPointAnswer your own questions(Well, my questions for now—but still.)
+Setting up your project(Practice makes perfect!)
+Do the following:
+Create a new RStudio project named “birds” and put it somewhere on your computer.</description>
+    </item>
+    
+    <item>
+      <title>Tidy data</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/03-class/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/03-class/</guid>
+      <description>ContentsSlidesIn-class democracy exampleClearest and muddiest thingsSlidesDownload the slides from today’s lecture.
+In-class democracy exampleHere’s the code I wrote in class:
+democracy.RmdThe knitted democracy.htmlClearest and muddiest thingsGo to this form and answer these three questions:
+What was the muddiest thing from class today? What are you still wondering about?What was the clearest thing from class today?</description>
+    </item>
+    
+    <item>
+      <title>Data visualization</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/02-class/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/02-class/</guid>
+      <description>ContentsSlidesIn-class examplesGuessing the identity of the Trump resistance op-ed writer with RVisualizing Hurricane Florence’s storm surgeClearest and muddiest thingsSlidesDownload the slides from today’s lecture.
+In-class examplesHere’s the code and data we’ll be working with in class. These are also accessible in RStudio.cloud.
+Movies and the 5 named graphs:  movies-5ng.zipBird collisions at the SLC airport:  airport-birds.</description>
+    </item>
+    
+    <item>
+      <title>Data science, statistics, and public administration</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/01-class/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/01-class/</guid>
+      <description>ContentsSlidesR codeClearest and muddiest thingsSlidesDownload the slides from today’s lecture.
+R codeThe introductory R script is here.
+The R Markdown file we played with is here.
+Clearest and muddiest thingsGo to this form and answer these three questions:
+What was the muddiest thing from class today? What are you still wondering about?What was the clearest thing from class today?</description>
+    </item>
+    
+  </channel>
+</rss>

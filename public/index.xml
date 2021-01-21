@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science for Public Management</title>
+    <link>https://statsf18.classes.andrewheiss.com/</link>
+    <description>Recent content on Data Science for Public Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://statsf18.classes.andrewheiss.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final project</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/final-project/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/final-project/</guid>
+      <description>ContentsDataYour own dataData from the internetFinal reportRequirementsOutlineInstructionsFor your final project, you will take a dataset from the wild, explore it, wrangle and clean it, tell a story with it, and make inferences about it using regression analysis and other statistical tools.
+You will complete this project as a team. Your team will produce one R Markdown report in the end that each member will contribute to jointly.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 7</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/07-problem-set/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/07-problem-set/</guid>
+      <description>The instructions for this problem set will be posted one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Wrapping up and going beyond the basics</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/14-class/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/14-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Wrapping up and going beyond the basics</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/14-reading/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/14-reading/</guid>
+      <description>RequiredThis looks like a lot, but most of these are quite short.
+Keep in mind throughout all these readings that an “algorithm” in these contexts is typically some fancy type of regression model where the outcome variable is something binary like “Safe babysitter/unsafe babysitter,” “Gave up seat in past/didn’t give up seat in past”, or “Violated probation in past/didn’t violate probation in past”, and the explanatory variables are hundreds of pieces of data that might predict those outcomes (social media history, flight history, race, etc.</description>
+    </item>
+    
+    <item>
+      <title>Example questions for Exam 3</title>
+      <link>https://statsf18.classes.andrewheiss.com/exam/03-exam/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/exam/03-exam/</guid>
+      <description>Short answerIs it better to take many small samples or a few large samples? Why? What happens to confidence intervals as the sample size increases? Why? What is the difference between a population parameter and a sample statistic? What is a census? How do we know if a sample is good? Under what conditions can we use samples to generalize about the whole population?</description>
+    </item>
+    
+    <item>
+      <title>Code-through</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/code-through/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/code-through/</guid>
+      <description>The objectives of this class include “Be curious and confident with data,” “Feel comfortable with R,” and “Communicate the results of your analyses in accessible language.” To help you with this, you will write a code-through tutorial of some statistical, data scientific, or data-based principle or example.
+One of the reasons R is so popular is because the R community is exceptionally generous and open and sharing.So are Python and other modern open source languages too.</description>
+    </item>
+    
+    <item>
+      <title>Inference, regression, and stories</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/13-class/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/13-class/</guid>
+      <description>ContentsSlidesClearest and muddiest thingsSlidesDownload the slides from today’s lecture:
+ PDF (best option) PowerPointClearest and muddiest thingsGo to this form and answer these three questions:
+What was the muddiest thing from class today? What are you still wondering about?What was the clearest thing from class today?What was the most exciting thing you learned?</description>
+    </item>
+    
+    <item>
+      <title>Problem set 6</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/06-problem-set/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/06-problem-set/</guid>
+      <description>In this problem set, you’ll be working with data from three different sources:
+Property tax data problem set 3.2016 GSS data from problem set 5. Because there are hundreds of variables, I’ve selected a handful for you with select().Data about car seat sales for a fictional company from Exam 2. See the answer key for Exam 2 on Learning Suite for a complete description of the variables in this dataset.</description>
+    </item>
+    
+    <item>
+      <title>Science communication</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/13-reading/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/13-reading/</guid>
+      <description>Required (regression and inference) 11.1–11.3 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ 7.4 in OpenIntro StatisticsDavid M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, OpenIntro Statistics, 3rd ed., 2017, https://www.openintro.org/stat/textbook.php?stat_book=os.
+Take advantage of the accompanying video!Required (science communication) Ben Wellington, “Making data mean more through storytelling” Jonathan Schwabish, “Better Data Communication,” National Bureau of Economic Research Adam Kanouse, “The Story in Data Storytelling” Brent Dykes, Data Storytelling: The Essential Data Science Skill Everyone NeedsMake sure you read both pages.</description>
+    </item>
+    
+    <item>
+      <title>Answers to regression and inference</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/12-class-answers/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/12-class-answers/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Inference and regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/12-class/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/12-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Inference and regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/12-reading/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/12-reading/</guid>
+      <description>RequiredNothing! Class is cancelled!</description>
+    </item>
+    
+    <item>
+      <title>Hypothesis testing</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/11-class/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/11-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Hypothesis testing</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/11-reading/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/11-reading/</guid>
+      <description>Required 10.1–10.9 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Introduction to ideas of inference,” chapter 1 in Jo Hardin’s Foundations of Inference course on DataCampHighly recommendedThese are two complete examples of how to pose hypotheses and make inferences based on data. You should try to work through one of them:</description>
+    </item>
+    
+    <item>
+      <title>Problem set 5</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/05-problem-set/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/05-problem-set/</guid>
+      <description>In this problem set, you’ll be working with data from three different sources:
+A simulated universe of 100,000 college student SAT math scores. You can pretend that this is the entire population of SAT math scores in 2018. It’s not, but it’s helpful for illustrating concepts of sampling (this is like the bowl dataset in ModernDive, or the tons_of_mms dataset from the class on sampling).
+The SAT/GPA data from problem set 4.</description>
+    </item>
+    
+    <item>
+      <title>Bootstrapping and confidence intervals</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/10-class/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/10-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Bootstrapping and confidence intervals</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/10-reading/</link>
+      <pubDate>Thu, 08 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/10-reading/</guid>
+      <description>Required 9.1–9.8 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Bootstrapping for estimating a parameter,” chapter 1 in Mine Çetinkaya-Rundel’s Inference for Numerical Data course on DataCampRecommended “Confidence intervals,” chapter 4 in Jo Hardin’s Foundations of Inference course on DataCamp</description>
+    </item>
+    
+    <item>
+      <title>Example questions for Exam 2</title>
+      <link>https://statsf18.classes.andrewheiss.com/exam/02-exam/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/exam/02-exam/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 4</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/04-problem-set/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/04-problem-set/</guid>
+      <description>SAT scores have long been a major factor in college admissions, under the assumption that students with higher test scores will perform better in college and receive a higher GPA. The SAT’s popularity has dropped in recent years, though, and this summer, the University of Chicago announced that it would stop requiring SAT scores for all prospective undergraduates.
+Educational Testing Service (ETS), the creator of the SAT, collected SAT scores, high school GPAs, and freshman-year-college GPAs for 1,000 students at an unnamed university.</description>
+    </item>
+    
+    <item>
+      <title>Sampling</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/09-class/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/09-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Sampling</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/09-reading/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/09-reading/</guid>
+      <description>Required 8.1–8.5 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+Other readings TBD</description>
+    </item>
+    
+    <item>
+      <title>Problem set 3</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/03-problem-set/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/03-problem-set/</guid>
+      <description>For this problem set, you’ll be working with data from the 2016 American Community Survey (ACS), which is a regular survey of 3.5 million housing units conducted annually by the US Census Bureau.
+You will use basic and multiple regression to explore some of the factors that determine the median county-level real estate tax rate in the Western US (Utah, Idaho, Arizona, Nevada, and California).
+I’m providing you with pre-cleaned data.</description>
+    </item>
+    
+    <item>
+      <title>Regression diagnostics and prediction</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/08-class/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/08-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Regression diagnostics and predictions</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/08-reading/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/08-reading/</guid>
+      <description>Required 8.2–8.3 in OpenIntro StatisticsDavid M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, OpenIntro Statistics, 3rd ed., 2017, https://www.openintro.org/stat/textbook.php?stat_book=os.
+Take advantage of the accompanying videos!Other readings TBDHighly recommened “Model Assessment and Selection,” chapter 4 in Albert Kim’s Modeling with Data in the Tidyverse course on DataCamp</description>
+    </item>
+    
+    <item>
+      <title>Multiple regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/07-class/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/07-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Multiple regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/07-reading/</link>
+      <pubDate>Thu, 18 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/07-reading/</guid>
+      <description>Required 7.1–7.4 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Modeling with multiple regression,” chapter 3 in Albert Kim’s Modeling with Data in the Tidyverse course on DataCampHighly recommended 8.1 in OpenIntro StatisticsDavid M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, OpenIntro Statistics, 3rd ed., 2017, https://www.openintro.org/stat/textbook.php?stat_book=os.
+This one is more mathy than you’re used to.</description>
+    </item>
+    
+    <item>
+      <title>Correlation and basic regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/06-class/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/06-class/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Correlation and basic regression</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/06-reading/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/06-reading/</guid>
+      <description>Required 6.1–6.4 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Introduction to modeling,” chapter 1 in Albert Kim’s Modeling with Data in the Tidyverse course on DataCamp “Modeling with basic regression,” chapter 2 in Albert Kim’s Modeling with Data in the Tidyverse course on DataCampHighly recommended 7.1–7.3 in OpenIntro StatisticsDavid M.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 2</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/02-problem-set/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/02-problem-set/</guid>
+      <description>For this problem set, you’ll be working with data from the 2010 US Religion Census, which provides county-level data on 236 religious groups in the United States. Because this data is a little unwieldy,The original data is the epitome of untidy. Each county has its own row, and each religion gets three columns: LDSCNG for the number of congregations, LDSADH for the number of adherents, and LDSRATE for the number of adherents per 1,000 people in the county (but repeated for every religion!</description>
+    </item>
+    
+    <item>
+      <title>Data wrangling with the Tidyverse II</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/05-class/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/05-class/</guid>
+      <description>ContentsSlides2016 elections, food security, and mortalitySetting up your projectQuestionsClearest and muddiest thingsSlidesDownload the slides from today’s lecture:
+ PDF (best option) PowerPoint2016 elections, food security, and mortalitySetting up your project(Practice makes perfect!)
+Do the following:
+Create a new RStudio project named “elections-food-death” (or something) and put it somewhere on your computer.</description>
+    </item>
+    
+    <item>
+      <title>Data wrangling with the Tidyverse II</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/05-reading/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/05-reading/</guid>
+      <description>Required 5.4–5.10 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Data transformation,” chapter 5 in R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.had.co.nz/.
+ “Grouping and summarizing,” chapter 3 in David Robinson’s Introduction to the Tidyverse course on DataCamp</description>
+    </item>
+    
+    <item>
+      <title>Data wrangling with the Tidyverse I</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/04-class/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/04-class/</guid>
+      <description>ContentsSlidesAnswer your own questionsSetting up your projectQuestionsClearest and muddiest thingsSlidesDownload the slides from today’s lecture:
+ PDF (best option) PowerPointAnswer your own questions(Well, my questions for now—but still.)
+Setting up your project(Practice makes perfect!)
+Do the following:
+Create a new RStudio project named “birds” and put it somewhere on your computer.</description>
+    </item>
+    
+    <item>
+      <title>Data wrangling with the Tidyverse I</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/04-reading/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/04-reading/</guid>
+      <description>Required 5.1–5.3 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Data wrangling,” chapter 1 in David Robinson’s Introduction to the Tidyverse course on DataCamp</description>
+    </item>
+    
+    <item>
+      <title>Exam 1 example</title>
+      <link>https://statsf18.classes.andrewheiss.com/exam/01-exam/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/exam/01-exam/</guid>
+      <description>Short answerAccording to the idea of the “Grammar of Graphics,” what is a statistical graphic?  What is the main difference between a barplot and a histogram?  What is overplotting? Name two ways to deal with it.  GraphicsOne of your employees shows you this graph about the number of books in Utah’s 71 libraries.
+ Identify:All of the variables displayed in this graphicHow they are represented in the graphic (hint: think of which aes and geom_* applies to each variable)  What is the main comparison being made in this plot?</description>
+    </item>
+    
+    <item>
+      <title>Problem set 1</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/01-problem-set/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/01-problem-set/</guid>
+      <description>InstructionsDownload this file, unzip it, and double click on the file named problem-set-1.Rproj:  problem-set-1.zipAlternatively, if you’re using RStudio.cloud, make a copy of the project named “Problem set 1”Ensure you have these packages installed on your computer: tidyverse and babynames. If you try to load one of those packages with library(tidyverse) or library(babynames) and R gives an error that the package is missing, use the “Packages” panel in RStudio to install it.</description>
+    </item>
+    
+    <item>
+      <title>Tidy data</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/03-class/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/03-class/</guid>
+      <description>ContentsSlidesIn-class democracy exampleClearest and muddiest thingsSlidesDownload the slides from today’s lecture.
+In-class democracy exampleHere’s the code I wrote in class:
+democracy.RmdThe knitted democracy.htmlClearest and muddiest thingsGo to this form and answer these three questions:
+What was the muddiest thing from class today? What are you still wondering about?What was the clearest thing from class today?</description>
+    </item>
+    
+    <item>
+      <title>Tidy data</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/03-reading/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/03-reading/</guid>
+      <description>Required 4.1–4.6 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Data visualization,” chapter 3 in Alison Hill’s Working with Data in the Tidyverse course on DataCamp</description>
+    </item>
+    
+    <item>
+      <title>Data visualization</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/02-class/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/02-class/</guid>
+      <description>ContentsSlidesIn-class examplesGuessing the identity of the Trump resistance op-ed writer with RVisualizing Hurricane Florence’s storm surgeClearest and muddiest thingsSlidesDownload the slides from today’s lecture.
+In-class examplesHere’s the code and data we’ll be working with in class. These are also accessible in RStudio.cloud.
+Movies and the 5 named graphs:  movies-5ng.zipBird collisions at the SLC airport:  airport-birds.</description>
+    </item>
+    
+    <item>
+      <title>Data visualization</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/02-reading/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/02-reading/</guid>
+      <description>Required 3.1–3.9 in ModernDiveChester Ismay and Albert Y. Kim, ModernDive: An Introduction to Statistical and Data Sciences via R, 2018, https://moderndive.com/.
+ “Data visualization,” chapter 2 in David Robinson’s Introduction to the Tidyverse course on DataCamp “Types of visualizations,” chapter 4 in David Robinson’s Introduction to the Tidyverse course on DataCamp Hans Rosling, “200 Countries, 200 Years, 4 Minutes”Recommended “Data visualization,” chapter 3 in R for Data ScienceHadley Wickham and Garrett Grolemund, R for Data Science: Import, Tidy, Transform, Visualize, and Model Data (Sebastopol, California: O’Reilly Media, 2017), http://r4ds.</description>
+    </item>
+    
+    <item>
+      <title>Data science, statistics, and public administration</title>
+      <link>https://statsf18.classes.andrewheiss.com/class/01-class/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/class/01-class/</guid>
+      <description>ContentsSlidesR codeClearest and muddiest thingsSlidesDownload the slides from today’s lecture.
+R codeThe introductory R script is here.
+The R Markdown file we played with is here.
+Clearest and muddiest thingsGo to this form and answer these three questions:
+What was the muddiest thing from class today? What are you still wondering about?What was the clearest thing from class today?</description>
+    </item>
+    
+    <item>
+      <title>Data science, statistics, and public management</title>
+      <link>https://statsf18.classes.andrewheiss.com/reading/01-reading/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reading/01-reading/</guid>
+      <description>RequiredThs syllabus and assignments pages for this class DJ Patil, &#34;What Makes a Radical and Revolutionary Technology?DJ Patil is the former Chief Data Scientist of the United States under President Obama. He gave this forum address at BYU on February 13, 2018.
+ Stephen Goldsmith, “Next Generation of Public Employees Must Understand Data and Policy” Chris Sommerfeld, “The Rise of the Data Scientists” Zack Quaintance, “Summit on Data-Smart Government Day Two Shows How Fast the Discipline Has Grown” Hadley Wickham, “Data Science: How is it Different To Statistics?</description>
+    </item>
+    
+    <item>
+      <title>Assignments</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignments/</guid>
+      <description>PreparationYou will get the most out of this class if you (1) attend class, (2) complete all the readings, and (3) engageTake detailed notes, work through the example code and try to understand it, have vivid dreams about statistics, etc.
+ with the readings.Also (4) ask for help!
+
+To encourage attendance and preparation, I use an honor-system-based self-reporting system.
+At the beginning of every class, I will post a quiz on Learning Suite with the following questions:</description>
+    </item>
+    
+    <item>
+      <title>Installing R, RStudio, and tidyverse</title>
+      <link>https://statsf18.classes.andrewheiss.com/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/install/</guid>
+      <description>You will do all of your work in this class with the open source (and free!) programming language R. You will use RStudio as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
+RStudio.cloudR is free, but it can sometimes be a pain to install and configure.</description>
+    </item>
+    
+    <item>
+      <title>Reference</title>
+      <link>https://statsf18.classes.andrewheiss.com/reference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/reference/</guid>
+      <description>A list of helpful resources will go here super super soon.</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>https://statsf18.classes.andrewheiss.com/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/schedule/</guid>
+      <description>Here’s your roadmap for the semester!
+ Readings should be completed before each class session Assignments are due by 11:59 PM on the day they are due Class materials (slides, in-class activities, etc.) will be added on the day of classOccasionally problem sets are due on the day of an exam.I’m so sorry! :(
+ Since problem sets are technically not due until midnight, and exams are done in class, this means those problem sets will be due after the exam.</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>https://statsf18.classes.andrewheiss.com/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/syllabus/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+  </channel>
+</rss>

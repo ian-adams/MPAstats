@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on Data Science for Public Management</title>
+    <link>https://statsf18.classes.andrewheiss.com/exam/</link>
+    <description>Recent content in Exams on Data Science for Public Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://statsf18.classes.andrewheiss.com/exam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example questions for Exam 3</title>
+      <link>https://statsf18.classes.andrewheiss.com/exam/03-exam/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/exam/03-exam/</guid>
+      <description>Short answerIs it better to take many small samples or a few large samples? Why? What happens to confidence intervals as the sample size increases? Why? What is the difference between a population parameter and a sample statistic? What is a census? How do we know if a sample is good? Under what conditions can we use samples to generalize about the whole population?</description>
+    </item>
+    
+    <item>
+      <title>Example questions for Exam 2</title>
+      <link>https://statsf18.classes.andrewheiss.com/exam/02-exam/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/exam/02-exam/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; }a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }a.sourceLine:empty { height: 1.2em; }.sourceCode { overflow: visible; }code.sourceCode { white-space: pre; position: relative; }div.sourceCode { margin: 1em 0; }pre.sourceCode { margin: 0; }@media screen {div.sourceCode { overflow: auto; }}@media print {code.sourceCode { white-space: pre-wrap; }a.sourceLine { text-indent: -1em; padding-left: 1em; }}pre.</description>
+    </item>
+    
+    <item>
+      <title>Exam 1 example</title>
+      <link>https://statsf18.classes.andrewheiss.com/exam/01-exam/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/exam/01-exam/</guid>
+      <description>Short answerAccording to the idea of the “Grammar of Graphics,” what is a statistical graphic?  What is the main difference between a barplot and a histogram?  What is overplotting? Name two ways to deal with it.  GraphicsOne of your employees shows you this graph about the number of books in Utah’s 71 libraries.
+ Identify:All of the variables displayed in this graphicHow they are represented in the graphic (hint: think of which aes and geom_* applies to each variable)  What is the main comparison being made in this plot?</description>
+    </item>
+    
+  </channel>
+</rss>

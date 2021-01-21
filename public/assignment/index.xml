@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on Data Science for Public Management</title>
+    <link>https://statsf18.classes.andrewheiss.com/assignment/</link>
+    <description>Recent content in Assignments on Data Science for Public Management</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://statsf18.classes.andrewheiss.com/assignment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Final project</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/final-project/</link>
+      <pubDate>Wed, 19 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/final-project/</guid>
+      <description>ContentsDataYour own dataData from the internetFinal reportRequirementsOutlineInstructionsFor your final project, you will take a dataset from the wild, explore it, wrangle and clean it, tell a story with it, and make inferences about it using regression analysis and other statistical tools.
+You will complete this project as a team. Your team will produce one R Markdown report in the end that each member will contribute to jointly.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 7</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/07-problem-set/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/07-problem-set/</guid>
+      <description>The instructions for this problem set will be posted one week before it is due.</description>
+    </item>
+    
+    <item>
+      <title>Code-through</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/code-through/</link>
+      <pubDate>Fri, 07 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/code-through/</guid>
+      <description>The objectives of this class include “Be curious and confident with data,” “Feel comfortable with R,” and “Communicate the results of your analyses in accessible language.” To help you with this, you will write a code-through tutorial of some statistical, data scientific, or data-based principle or example.
+One of the reasons R is so popular is because the R community is exceptionally generous and open and sharing.So are Python and other modern open source languages too.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 6</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/06-problem-set/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/06-problem-set/</guid>
+      <description>In this problem set, you’ll be working with data from three different sources:
+Property tax data problem set 3.2016 GSS data from problem set 5. Because there are hundreds of variables, I’ve selected a handful for you with select().Data about car seat sales for a fictional company from Exam 2. See the answer key for Exam 2 on Learning Suite for a complete description of the variables in this dataset.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 5</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/05-problem-set/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/05-problem-set/</guid>
+      <description>In this problem set, you’ll be working with data from three different sources:
+A simulated universe of 100,000 college student SAT math scores. You can pretend that this is the entire population of SAT math scores in 2018. It’s not, but it’s helpful for illustrating concepts of sampling (this is like the bowl dataset in ModernDive, or the tons_of_mms dataset from the class on sampling).
+The SAT/GPA data from problem set 4.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 4</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/04-problem-set/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/04-problem-set/</guid>
+      <description>SAT scores have long been a major factor in college admissions, under the assumption that students with higher test scores will perform better in college and receive a higher GPA. The SAT’s popularity has dropped in recent years, though, and this summer, the University of Chicago announced that it would stop requiring SAT scores for all prospective undergraduates.
+Educational Testing Service (ETS), the creator of the SAT, collected SAT scores, high school GPAs, and freshman-year-college GPAs for 1,000 students at an unnamed university.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 3</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/03-problem-set/</link>
+      <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/03-problem-set/</guid>
+      <description>For this problem set, you’ll be working with data from the 2016 American Community Survey (ACS), which is a regular survey of 3.5 million housing units conducted annually by the US Census Bureau.
+You will use basic and multiple regression to explore some of the factors that determine the median county-level real estate tax rate in the Western US (Utah, Idaho, Arizona, Nevada, and California).
+I’m providing you with pre-cleaned data.</description>
+    </item>
+    
+    <item>
+      <title>Problem set 2</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/02-problem-set/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/02-problem-set/</guid>
+      <description>For this problem set, you’ll be working with data from the 2010 US Religion Census, which provides county-level data on 236 religious groups in the United States. Because this data is a little unwieldy,The original data is the epitome of untidy. Each county has its own row, and each religion gets three columns: LDSCNG for the number of congregations, LDSADH for the number of adherents, and LDSRATE for the number of adherents per 1,000 people in the county (but repeated for every religion!</description>
+    </item>
+    
+    <item>
+      <title>Problem set 1</title>
+      <link>https://statsf18.classes.andrewheiss.com/assignment/01-problem-set/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://statsf18.classes.andrewheiss.com/assignment/01-problem-set/</guid>
+      <description>InstructionsDownload this file, unzip it, and double click on the file named problem-set-1.Rproj:  problem-set-1.zipAlternatively, if you’re using RStudio.cloud, make a copy of the project named “Problem set 1”Ensure you have these packages installed on your computer: tidyverse and babynames. If you try to load one of those packages with library(tidyverse) or library(babynames) and R gives an error that the package is missing, use the “Packages” panel in RStudio to install it.</description>
+    </item>
+    
+  </channel>
+</rss>
