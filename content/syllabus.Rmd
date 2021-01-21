@@ -149,6 +149,7 @@ Please follow all the best practices you learned in Organizational Behavior to e
 
 
 ```{r assignments-grades, include=FALSE}
+library(tidyverse)
 assignments <- tribble(
   ~Points, ~Assignment,
   150     , "Preparation (≈ 10.5 × 14)",
@@ -191,7 +192,7 @@ grading %>%
                col.names = c("Grade", "Range", "Grade", "Range"))
 ```
 
-# Red pandas
+# Things that are too smart for their own good
 
 [^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:ian.adams@utah.edu) and e-mail me a picture of a cute dog. For real. Brownie points if it's animated.
 
