@@ -2,13 +2,14 @@
 title: Syllabus
 slug: syllabus
 citeproc: false
+bibliography: ../static/bib/references.bib
+csl: ../static/bib/chicago-syllabus-no-bib.csl
 ---
 
 ```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
 library(dplyr)
 library(tibble)
 library(pander)
-library(tidyverse)
 ```
 
 [^courseinfo]
@@ -70,14 +71,18 @@ This class will expose you to [R](https://cran.r-project.org/)—one of the most
 
 ## Books
 
-- [**ModernDive**](https://moderndive.com/): ModernDive will be our primary textbook. Please take the time to read the assigned chapters in depth and complete the Learning Checks when possible. 
+- [^md] [**ModernDive**](https://moderndive.com/): ModernDive will be our primary textbook. Please take the time to read the assigned chapters in depth and complete the Learning Checks when possible. 
 
-- [**R for Data Science**](http://r4ds.had.co.nz/): Some of your readings will also come from the free R for Data Science book. Please take the time to read this book carefully as well and walk through the examples in RStudio. Free online, but used and new physical copies available at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
+- [^r4ds] [**R for Data Science**](http://r4ds.had.co.nz/): Some of your readings will also come from the free R for Data Science book. Please take the time to read this book carefully as well and walk through the examples in RStudio.
 
-- [**OpenIntro Statistics**](https://www.openintro.org/stat/textbook.php?stat_book=os): A few of your readings will also come from the free OpenIntro Statistics book. Free online, but also available at [Amazon](https://www.amazon.com/dp/1943450048/)]
+- [^os] [**OpenIntro Statistics**](https://www.openintro.org/stat/textbook.php?stat_book=os): A few of your readings will also come from the free OpenIntro Statistics book.
 
-### Additional Materials
+[^md]: {-} Chester Ismay and Albert Y. Kim, *ModernDive: An Introduction to Statistical and Data Sciences via R*, version 0.4.0 (2018). [**FREE** [online](https://moderndive.com/)]
 
+[^r4ds]: {-} Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data* (Sebastopol, California: O’Reilly Media, 2017). [**FREE** [online](http://r4ds.had.co.nz/); Used and new physical copies available at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
+
+[^os]: {-} David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, *OpenIntro Statistics* (3rd edition, 2017). [**FREE** [online](https://www.openintro.org/stat/textbook.php?stat_book=os); Also available at [Amazon](https://www.amazon.com/dp/1943450048/)]
+    
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 
 I also highly recommend subscribing to the [R Weekly newsletter](https://rweekly.org/). This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.
@@ -144,7 +149,6 @@ Please follow all the best practices you learned in Organizational Behavior to e
 
 
 ```{r assignments-grades, include=FALSE}
-library(tidyverse)
 assignments <- tribble(
   ~Points, ~Assignment,
   150     , "Preparation (≈ 10.5 × 14)",
@@ -187,7 +191,7 @@ grading %>%
                col.names = c("Grade", "Range", "Grade", "Range"))
 ```
 
-# Things that are too smart for their own good
+# Red pandas
 
 [^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:ian.adams@utah.edu) and e-mail me a picture of a cute dog. For real. Brownie points if it's animated.
 

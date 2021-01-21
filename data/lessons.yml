@@ -3,12 +3,12 @@ lessons:
     header: True
 
   - title: "Data science, statistics, and public administration"
-    date: "January 19 (I & II)"
+    date: "September 6 (I & II)"
     reading: "01-reading"
     class: "01-class"
 
   - title: "Data visualization"
-    date: "January 26 (I & II)"
+    date: "September 13 (I & II)"
     reading: "02-reading"
     class: "02-class"
 
