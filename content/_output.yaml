@@ -5,6 +5,5 @@ blogdown::html_page:
   section_divs: false
   pandoc_args: [
       "--highlight-style", "haddock",
-      "--shift-heading-level-by=2",
-      "--citeproc"
+      "--shift-heading-level-by=2"
     ]
