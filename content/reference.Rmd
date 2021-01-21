@@ -15,6 +15,10 @@ stuff-to-add: >-
 
 A list of helpful resources will go here super super soon.
 
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [The importance of stupidity in scientific research](https://ir.stonybrook.edu/xmlui/bitstream/handle/11401/8083/schwartzimportanceofstupidityinscience.pdf?sequence=1)
+- [R Weekly](https://rweekly.org/)
+
 ```{r include=FALSE}
 # # Citations and bibliography
 # 

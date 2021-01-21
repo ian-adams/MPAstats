@@ -30,18 +30,16 @@ At the beginning of every class, I will post a quiz on Learning Suite with the f
     - I copied and pasted the code but didn't make a good effort to understand it (*1 point*)
     - I didn't do anything with the code in the readings (*0 points*)
 
-Each day is worth 10.5 points. *It is unlikely that you'll score a 10.5 every day.*^[But it would be amazing if you did!] I will shift the distribution of everyone's final preparation score up at the end of the course.
+Each day is worth 10.5 points. *It is unlikely that you'll score a 10.5 every day.*^[But it would be amazing if you did!].
 
 
 # Problem sets
 
 <span class="newthought">To practice writing R code</span> and answering statistical questions with data science tools, you will complete a series of 7 problem sets. You need to show that you made a good faith effort to work each question. The problem sets will be graded using a check system:
 
-- ✔+: ^[{-} *110% in gradebook*] Problem set is 100% completed. Every question was attempted and answered, and most answers are correct. Document is clean and easy to follow. Work is exceptional. I will not assign these often.
-- ✔: ^[{-} *90% in gradebook*] Problem set is 70–99% complete and most answers are correct. This is the expected level of performance.
+- ✔+: ^[{-} *100% in gradebook*] Problem set is 100% completed. Every question was attempted and answered, and most answers are correct. Document is clean and easy to follow. Work is exceptional. I will not assign these often.
+- ✔: ^[{-} *85% in gradebook*] Problem set is 70–99% complete and most answers are correct. This is the expected level of performance.
 - ✔−: ^[{-} *50% in gradebook*] Problem set is less than 70% complete and/or most answers are incorrect. This indicates that you need to improve next time. I will hopefully not asisgn these often.
-
-I will rescale everyone's problem set grades at the end of the semester.
 
 You may (and should!) work together on the problem sets, but you must turn in your own answers. You cannot work in groups of more than five.
 
@@ -54,7 +52,7 @@ One of the reasons R is so popular is because the R community is exceptionally g
 
 You will write one code-through or tutorial during the semester on a topic of your choice. Complete details for the assignment (along with a lot of examples to look at) will be given later. You will complete this on your own, but you can get help from your team (but you can't all write about the same topic).
 
-The [R-Weekly e-mail newsletter](https://rweekly.org/) includes dozens of these every week, and [Mara Averick](https://twitter.com/dataandme) (chief tidyverse advocate at RStudio) regularly tweets out links to different posts as well. Here are some others examples to give you a jist of what you'll be doing:^[{-} Yours won't be nearly as complicated as these, by the way. Nor do they need to be. You'll illustrate and explain something simple.]
+The [R-Weekly e-mail newsletter](https://rweekly.org/) includes dozens of these every week, and [Mara Averick](https://twitter.com/dataandme) (chief tidyverse advocate at RStudio) regularly tweets out links to different posts as well. Here are some others examples to give you the gist of what you'll be doing:^[{-} Yours won't be nearly as complicated as these, by the way. Nor do they need to be. You'll illustrate and explain something simple.]
 
 - [The Greatest Twitter Scheme of All Time?](https://www.garrickadenbuie.com/blog/2018/08/24/greatest-twitter-scheme/)
 - [Mapping Fall Foliage with sf](https://rud.is/b/2017/09/18/mapping-fall-foliage-with-sf/)

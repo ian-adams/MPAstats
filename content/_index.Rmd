@@ -1,9 +1,9 @@
 ---
-title: "Data Science for Public Management"
-author: "Andrew Heiss"
+title: "Public Policy Statistics 6002"
+author: "Ian Adams"
 ---
 
-^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for MPA 630: Data Science and Statistics for Public Management, held during Fall 2018 at Brigham Young University.
+^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for PUBPL 6002: Data Science and Statistics for Public Management, held during Fall 2021 at the University of Utah.
 
 By the end of this course, you will (1) be data literate and (2) be able to answer your own questions with statistical and data scientific tools.
 
