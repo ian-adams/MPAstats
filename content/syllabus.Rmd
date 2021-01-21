@@ -32,23 +32,23 @@ Specifically, you'll be able to:
 - Understand the assumptions and limitations of statistical procedures
 - Communicate the results of your analyses in accessible language
 
-Given these objectives, this course fulfills three of the four learning outcomes for University of Utah's [Master of Public Administration (MPA)](https://mpa.utah.edu/) and [Master of Public Policy](https://mpp.utah.edu/) program. It can also be used as credit for Ph.D. students for their advanced quantitative analysis course (i.e. POLS 6002).
+Given these objectives, this course fulfills three of the four learning outcomes for BYU's [Master of Public Administration (MPA)](https://marriottschool.byu.edu/mpa/) program:
 
-- **Quantitative Analysis**: Our MPP and MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations.
-- **Public Service Values**: Our MPA and MPP graduates demonstrate an understanding of, passion for, and commitment to public service values, including reverence for the dignity and worth of all people and dedication to ethical governance.
-- **Communication**: Our MPA and MPP graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints.
+- **Quantitative Analysis**: BYU MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations.
+- **Public Service Values**: BYU MPA graduates demonstrate an understanding of, passion for, and commitment to public service values, including reverence for the dignity and worth of all people and dedication to ethical governance.
+- **Communication**: BYU MPA graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints.
 
 
 # Course philosophy
 
-<span class="newthought">Classical statistics classes</span> spend substantial time covering probability theory, null hypothesis testing, and other statistical tests first developed hundreds of years ago. Some classes don't use software or actual real data and instead live in the world of mathematical proofs. They can be math-heavy and full of often un-intuitive concepts and equations. 
+<span class="newthought">Classical statistics classes</span> spend substantial time covering probability theory, null hypothesis testing, and other statistical tests first developed hundreds of years ago. Some classes don't use software or actual real data and instead live in the world of mathematical proofs. They can be math-heavy and full of often unintuitive concepts and equations. 
 
 In this class, we will take the opposite approach. We *begin* with data and learn how to tidy, wrangle, manipulate, and visualize it with code. Later in the semester we turn to more classical topics like inference and statistical modeling, but continue to keep the focus on data as we do so. 
 
 In other words, there's way less of this:
 
 $$
-P(A|B) = \frac{P(A\cap B)}{P(B)}
+f(x) = \dfrac{1}{\sqrt{2\pi}} e^{-\frac12 x^2}
 $$
 
 And way more of this:
@@ -79,13 +79,23 @@ This class will expose you to [R](https://cran.r-project.org/)—one of the most
 
 [^md]: {-} Chester Ismay and Albert Y. Kim, *ModernDive: An Introduction to Statistical and Data Sciences via R*, version 0.4.0 (2018). [**FREE** [online](https://moderndive.com/)]
 
-[^r4ds]: {-} Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data* (Sebastopol, California: O’Reilly Media, 2017). [**FREE** [online](http://r4ds.had.co.nz/); Used and new physical copies available at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
+[^r4ds]: {-} Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data* (Sebastopol, California: O’Reilly Media, 2017). [**FREE** [online](http://r4ds.had.co.nz/); $13 used, $18 new at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
 
-[^os]: {-} David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, *OpenIntro Statistics* (3rd edition, 2017). [**FREE** [online](https://www.openintro.org/stat/textbook.php?stat_book=os); Also available at [Amazon](https://www.amazon.com/dp/1943450048/)]
+[^os]: {-} David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, *OpenIntro Statistics* (3rd edition, 2017). [**FREE** [online](https://www.openintro.org/stat/textbook.php?stat_book=os); $15 new at [Amazon](https://www.amazon.com/dp/1943450048/)]
     
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 
 I also highly recommend subscribing to the [R Weekly newsletter](https://rweekly.org/). This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.
+
+## ~~DataCamp~~
+
+**Update**: This text is still here for historical reasons, but all links to DataCamp have been removed, and future versions of this class will not use DataCamp content due to the organization's [horrible handling of sexual harassment claims](https://www.datacamp.com/community/blog/note-to-our-community) and its deeper issues with organizational culture.
+
+~~We will use DataCamp—a collection of fantatstic interactive videos and tutorials and coding exercises available online—to supplement your readings. These exercises will give you additional practice with R and will be essential to understanding the material (especially in the first half of the course).~~
+
+~~I will assign specific chapters from DataCamp courses as part of your readings, but by being in this class, you have access to the entire DataCamp course library for the next six months. If you ever feel bored, adventurous, or both, check out other courses and learn even more!^[For real, this is an incredible opportunity!] Importantly, you do not have to purchase any services or classes from DataCamp.~~
+
+~~I will enroll you in our class DataCamp group using the e-mail address you have registered with BYU. You will then receive an e-mail from DataCamp with a link to register on their site.~~
 
 ## R and RStudio
 
@@ -103,25 +113,22 @@ Data science and statistical programming can be difficult. Computers are stupid 
 
 Fortunately there are tons of online resources to help you with this. Two of the most important are [StackOverflow](https://stackoverflow.com/) (a Q&A site with hundreds of thousands of answers to all sorts of programming questions) and [RStudio Community](https://community.rstudio.com/) (a forum specifically designed for people using RStudio and the tidyverse (i.e. you)).
 
-Additionally, we have a class chatroom at [Gitter](https://gitter.im/byustatsf18/) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, Learning Checks, lectures, or problem sets [in the class Gitter](https://gitter.im/MPA-MPP-Stats/community). I will monitor the chatroom regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
+Additionally, we have a class chatroom at [Gitter](https://gitter.im/byustatsf18/) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, Learning Checks, lectures, or problem sets [in the class Gitter](https://gitter.im/byustatsf18/). I will monitor the chatroom regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
 
 
 # Course policies
 
 <span class="newthought">Be nice. Be honest. Don't cheat.</span>
 
-It is my intent that students from all diverse backgrounds and perspectives be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Your suggestions are encouraged and appreciated. Please let me know ways to improve the effectiveness of the course for you personally or for other students or student groups. In addition, if any of our class meetings conflict with your religious events, please let me know so that we can make arrangements for you. The following resources and statements are drawn directly from the University of Utah guidelines. If you have questions or concerns not answered below, please contact me directly so we can work together to answer and address them.
+We will also follow the [full list of Marriott School and BYU classroom policies](https://marriottschool.byu.edu/policies/classroom/).
 
-We will also follow the [full list of college and university policies](https://regulations.utah.edu/general/index.php).
+## Counseling and Psychological Services (CAPS)
 
-1.	*Accommodation of Sincerely Held Beliefs*:  I will work with students who require schedule changes due to religious or other significant obligations. I will not consider any requests based on course content. No other area of study touches on more sensitive topics than the broad category of "public policy" (and at times disturbing forms of human misbehavior such as criminal law). Policy researchers must read about, talk about, and listen to information relating to very difficult subjects. Sometimes case descriptions can be quite graphic. Students are required to attend all classes and to read all the assignments. All assignments and lectures are related to our subject matter.
+Life at BYU can be complicated and challenging. You might feel overwhelmed, experience anxiety or depression, or struggle with relationships or family responsibilities. [Counseling and Psychological Services (CAPS)](https://caps.byu.edu/) provides free, *confidential* support for students who are struggling with mental health and emotional challenges. The CAPS office is staffed by professional psychologists who are attuned to the needs of all types of college and professional students. Please do not hesitate to contact CAPS for assistance—getting help is a smart and courageous thing to do.
 
-2.	*The Americans with Disabilities Act*. The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the [Center for Disability Services](https://disability.utah.edu/), 162 Olpin Union Building, (801) 581-5020. CDS will work with you and the instructor to make arrangements for accommodations. All written information in this course can be made available in an alternative format with prior notification to the Center for Disability Services.
+## Basic needs security
 
-3.	*University Safety Statement*. The University of Utah values the safety of all campus community members. To report suspicious activity, call campus police at 801-585-COPS (801-585-2677). You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit safeu.utah.edu. 
-
-4.	*Addressing Sexual Misconduct*. Title IX makes it clear that violence and harassment based on sex and gender (which Includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information.  If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066.  For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776.  To report to the police, contact the Department of Public Safety, 801-585-2677(COPS).
-
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, and you believe this may affect your performance in this course, please contact the [Dean of Students](https://deanofstudents.byu.edu/) for support. Please also consider speaking with your local LDS bishop regarding Church welfare assistance *regardless of whether or not you are LDS*. Additionally, please talk to me if you are comfortable in doing so. This will enable me to provide any resources that I might possess.
 
 ## Class conduct and expectations
 
@@ -134,7 +141,7 @@ On the first day of class, we came up a few specific rules, expectations, and po
 
 ## Laptops
 
-This is a computer-heavy course and each class session will require extensive laptop use. Use your computer responsibly in class.
+This is a computer-heavy course and each class session will require extensive laptop use. Occasionally I may ask that laptops be closed for some in-class activities, you will be expected to use your computer. Please note that this is different from the laptop policy in other Romney Institute classes. Use your computer responsibly in class.
 
 ## Teams
 
@@ -193,7 +200,7 @@ grading %>%
 
 # Red pandas
 
-[^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:ian.adams@utah.edu) and e-mail me a picture of a cute dog. For real. Brownie points if it's animated.
+[^panda] <span class="newthought">Once you have read</span> this entire syllabus and [the assignments page](/assignments/), please [click here](mailto:andrew_heiss@byu.edu) and e-mail me a picture of a red panda. For real. Brownie points if it's animated.
 
 [^panda]: {-}
-  ![Can't fool a shepherd](https://media.giphy.com/media/eeLD68y0yAzl12KUDH/giphy.gif)
+  ![Hungry red panda](https://media.giphy.com/media/r7Nbr97FsXxXG/giphy.gif)
