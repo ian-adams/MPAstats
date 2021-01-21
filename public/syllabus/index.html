@@ -130,27 +130,29 @@
     <h1>Syllabus</h1>
 
     
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -162,9 +164,9 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-le
 div.sourceCode
   { color: #1f1c1b; background-color: #ffffff; }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span. { color: #1f1c1b; } /* Normal */
+code span { color: #1f1c1b; } /* Normal */
 code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
 code span.an { color: #ca60ca; } /* Annotation */
 code span.at { color: #0057ae; } /* Attribute */
@@ -198,24 +200,8 @@ code span.wa { color: #bf0303; } /* Warning */
 </style>
 
 
-<p><span><label for="sn-1" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="marginnote">
-<span class="fake-header">Instructor</span><br>
-<span class="fake-li"><i class="fas fa-user"></i><a href="https://www.ianadamsresearch.com"> Ian T. Adams</a></span><br>
-<span class="fake-li"><i class="fas fa-university"></i> Homebase</span><br>
-<span class="fake-li"><i class="fas fa-envelope"></i><a href="mailto:ian.adams@utah.edu"> ian.adams@utah.edu</a></span><br>
-<span class="fake-li"><i class="fab fa-twitter"></i><a href="https://twitter.com/LiminalMori"> @LiminalMori</a></span><br>
-<span class="fake-li"><i class="fas fa-users"></i> Office hours: <a href="https://calendly.com/andrewheiss/meeting/">Sign up here.</a><br><br>E-mail is the best way to get in contact with me—I will respond to all course-related e-mails within 24 hours (<em>really</em>).</span><br>
-<br>
-<span class="fake-header">Course</span><br>
-<span class="fake-li"><i class="far fa-calendar"></i> Any Day - Asynchronous</span><br>
-<span class="fake-li"><i class="far fa-calendar-alt"></i> January 19–May 4, 2021</span><br>
-<span class="fake-li"><i class="far fa-clock"></i> Any Time - Asynchronous</span><br>
-<span class="fake-li"><i class="fas fa-university"></i> Online</span><br>
-
-<br />
-<br />
-</span></span></p>
-<h2 id="course-objectives">Course objectives</h2>
+<p><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<h3 id="course-objectives">Course objectives</h3>
 <p><span class="newthought">By the end of this course,</span> you will (1) be data literate and (2) be able to answer your own questions with statistical and data scientific tools.</p>
 <p>Specifically, you’ll be able to:</p>
 <ul>
@@ -228,66 +214,56 @@ code span.wa { color: #bf0303; } /* Warning */
 <li>Understand the assumptions and limitations of statistical procedures</li>
 <li>Communicate the results of your analyses in accessible language</li>
 </ul>
-<p>Given these objectives, this course fulfills three of the four learning outcomes for BYU’s <a href="https://marriottschool.byu.edu/mpa/">Master of Public Administration (MPA)</a> program:</p>
+<p>Given these objectives, this course fulfills three of the four learning outcomes for University of Utah’s <a href="https://mpa.utah.edu/">Master of Public Administration (MPA)</a> and <a href="https://mpp.utah.edu/">Master of Public Policy</a> program. It can also be used as credit for Ph.D. students for their advanced quantitative analysis course (i.e. POLS 6002).</p>
 <ul>
-<li><strong>Quantitative Analysis</strong>: BYU MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations.</li>
-<li><strong>Public Service Values</strong>: BYU MPA graduates demonstrate an understanding of, passion for, and commitment to public service values, including reverence for the dignity and worth of all people and dedication to ethical governance.</li>
-<li><strong>Communication</strong>: BYU MPA graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints.</li>
+<li><strong>Quantitative Analysis</strong>: Our MPP and MPA graduates are skilled at evaluating programs and policies. They know how to gather data, correctly analyze it, and employ the analysis to recommend policy and programmatic action in public service organizations.</li>
+<li><strong>Public Service Values</strong>: Our MPA and MPP graduates demonstrate an understanding of, passion for, and commitment to public service values, including reverence for the dignity and worth of all people and dedication to ethical governance.</li>
+<li><strong>Communication</strong>: Our MPA and MPP graduates effectively convey verbal and written information with the polish and professionalism appropriate for the public service context. They listen to and promote understanding among people with diverse viewpoints.</li>
 </ul>
-<h2 id="course-philosophy">Course philosophy</h2>
-<p><span class="newthought">Classical statistics classes</span> spend substantial time covering probability theory, null hypothesis testing, and other statistical tests first developed hundreds of years ago. Some classes don’t use software or actual real data and instead live in the world of mathematical proofs. They can be math-heavy and full of often unintuitive concepts and equations.</p>
+<h3 id="course-philosophy">Course philosophy</h3>
+<p><span class="newthought">Classical statistics classes</span> spend substantial time covering probability theory, null hypothesis testing, and other statistical tests first developed hundreds of years ago. Some classes don’t use software or actual real data and instead live in the world of mathematical proofs. They can be math-heavy and full of often un-intuitive concepts and equations.</p>
 <p>In this class, we will take the opposite approach. We <em>begin</em> with data and learn how to tidy, wrangle, manipulate, and visualize it with code. Later in the semester we turn to more classical topics like inference and statistical modeling, but continue to keep the focus on data as we do so.</p>
 <p>In other words, there’s way less of this:</p>
 <p><span class="math display">\[
-f(x) = \dfrac{1}{\sqrt{2\pi}} e^{-\frac12 x^2}
+P(A|B) = \frac{P(A\cap B)}{P(B)}
 \]</span></p>
 <p>And way more of this:</p>
-<pre class="sourceCode r"><code class="sourceCode r">summary_monthly_temp &lt;-<span class="st"> </span>weather <span class="op">%&gt;%</span><span class="st"> </span>
-<span class="st">  </span><span class="kw">group_by</span>(month) <span class="op">%&gt;%</span><span class="st"> </span>
-<span class="st">  </span><span class="kw">summarize</span>(<span class="dt">mean =</span> <span class="kw">mean</span>(temp), 
-            <span class="dt">std_dev =</span> <span class="kw">sd</span>(temp))</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>summary_monthly_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp), </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp))</span></code></pre></div>
 <p>Over the last decade there has been a revolution in statistical and scientific computing. Open source languages like R and Python have overtaken older (and expensive!) corporate software packages like SAS and SPSS, and there are now thousands of books and blog posts and other online resources with excellent tutorials about how to analyze pretty much any kind of data.</p>
 <p>This class will expose you to <a href="https://cran.r-project.org/">R</a>—one of the most popular, sought-after, and in-demand statistical programming languages. Armed with the foundation of R skills you’ll learn in this class, you’ll know enough to be able to find how to analyze any sort of data-based question in the future.</p>
-<h2 id="course-materials">Course materials</h2>
+<h3 id="course-materials">Course materials</h3>
 <p><span class="newthought">There are no formal physical textbooks for the class.</span> We will only use (free!) online resources.</p>
-<h3 id="books">Books</h3>
+<h4 id="books">Books</h4>
 <ul>
-<li><p><span><label for="sn-2" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-2" class="margin-toggle"/><span class="marginnote"> Chester Ismay and Albert Y. Kim, <em>ModernDive: An Introduction to Statistical and Data Sciences via R</em>, version 0.4.0 (2018). [<strong>FREE</strong> <a href="https://moderndive.com/">online</a>]<br />
-<br />
-</span></span> <a href="https://moderndive.com/"><strong>ModernDive</strong></a>: ModernDive will be our primary textbook. Please take the time to read the assigned chapters in depth and complete the Learning Checks when possible.</p></li>
-<li><p><span><label for="sn-3" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-3" class="margin-toggle"/><span class="marginnote"> Hadley Wickham and Garrett Grolemund, <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em> (Sebastopol, California: O’Reilly Media, 2017). [<strong>FREE</strong> <a href="http://r4ds.had.co.nz/">online</a>; $13 used, $18 new at <a href="https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/">Amazon</a>]<br />
-<br />
-</span></span> <a href="http://r4ds.had.co.nz/"><strong>R for Data Science</strong></a>: Some of your readings will also come from the free R for Data Science book. Please take the time to read this book carefully as well and walk through the examples in RStudio.</p></li>
-<li><p><span><label for="sn-4" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-4" class="margin-toggle"/><span class="marginnote"> David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, <em>OpenIntro Statistics</em> (3rd edition, 2017). [<strong>FREE</strong> <a href="https://www.openintro.org/stat/textbook.php?stat_book=os">online</a>; $15 new at <a href="https://www.amazon.com/dp/1943450048/">Amazon</a>]<br />
-<br />
-</span></span> <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><strong>OpenIntro Statistics</strong></a>: A few of your readings will also come from the free OpenIntro Statistics book.</p></li>
+<li><p><a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> <a href="https://moderndive.com/"><strong>ModernDive</strong></a>: ModernDive will be our primary textbook. Please take the time to read the assigned chapters in depth and complete the Learning Checks when possible.</p></li>
+<li><p><a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> <a href="http://r4ds.had.co.nz/"><strong>R for Data Science</strong></a>: Some of your readings will also come from the free R for Data Science book. Please take the time to read this book carefully as well and walk through the examples in RStudio.</p></li>
+<li><p><a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> <a href="https://www.openintro.org/stat/textbook.php?stat_book=os"><strong>OpenIntro Statistics</strong></a>: A few of your readings will also come from the free OpenIntro Statistics book.</p></li>
 </ul>
 <p>There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.</p>
 <p>I also highly recommend subscribing to the <a href="https://rweekly.org/">R Weekly newsletter</a>. This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.</p>
-<h3 id="datacamp"><del>DataCamp</del></h3>
-<p><strong>Update</strong>: This text is still here for historical reasons, but all links to DataCamp have been removed, and future versions of this class will not use DataCamp content due to the organization’s <a href="https://www.datacamp.com/community/blog/note-to-our-community">horrible handling of sexual harassment claims</a> and its deeper issues with organizational culture.</p>
-<p><del>We will use DataCamp—a collection of fantatstic interactive videos and tutorials and coding exercises available online—to supplement your readings. These exercises will give you additional practice with R and will be essential to understanding the material (especially in the first half of the course).</del></p>
-<p><del>I will assign specific chapters from DataCamp courses as part of your readings, but by being in this class, you have access to the entire DataCamp course library for the next six months. If you ever feel bored, adventurous, or both, check out other courses and learn even more!<span><label for="sn-5" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-5" class="margin-toggle"/><span class="sidenote">For real, this is an incredible opportunity!<br />
-<br />
-</span></span> Importantly, you do not have to purchase any services or classes from DataCamp.</del></p>
-<p><del>I will enroll you in our class DataCamp group using the e-mail address you have registered with BYU. You will then receive an e-mail from DataCamp with a link to register on their site.</del></p>
-<h3 id="r-and-rstudio">R and RStudio</h3>
+<h4 id="r-and-rstudio">R and RStudio</h4>
 <p>You will do all of your analysis with the open source (and free!) programming language <a href="https://cran.r-project.org/">R</a>. You will use <a href="https://www.rstudio.com/">RStudio</a> as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.</p>
 <p>R is free, but it can sometimes be a pain to install and configure. To make life easier, you can (and should!) use the free <a href="http://rstudio.cloud/">RStudio.cloud</a> service, which lets you run a full instance of RStudio in your web browser. This means you won’t have to install anything on your computer to get started with R! We will have a shared class workspace in RStudio.cloud that will let you quickly copy templates for labs and problem sets.</p>
 <p>RStudio.cloud is convenient, but it can be slow and it is not designed to be able to handle larger datasets or more complicated analysis. Over the course of the semester, you’ll probably want to get around to installing R, RStudio, and other R packages on your computer and wean yourself off of RStudio.cloud. This isn’t necessary, but it’s helpful.</p>
 <p>You can <a href="/install/">find instructions for installing R, RStudio, and all the tidyverse packages here.</a></p>
-<h3 id="online-help-and-gitter">Online help and Gitter</h3>
+<h4 id="online-help-and-gitter">Online help and Gitter</h4>
 <p>Data science and statistical programming can be difficult. Computers are stupid and little errors in your code can cause hours of headache (even if you’ve been doing this stuff for years!).</p>
 <p>Fortunately there are tons of online resources to help you with this. Two of the most important are <a href="https://stackoverflow.com/">StackOverflow</a> (a Q&amp;A site with hundreds of thousands of answers to all sorts of programming questions) and <a href="https://community.rstudio.com/">RStudio Community</a> (a forum specifically designed for people using RStudio and the tidyverse (i.e. you)).</p>
-<p>Additionally, we have a class chatroom at <a href="https://gitter.im/byustatsf18/">Gitter</a> where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, Learning Checks, lectures, or problem sets <a href="https://gitter.im/byustatsf18/">in the class Gitter</a>. I will monitor the chatroom regularly, and you should also all do so as well. You’ll likely have similar questions as your peers, and you’ll likely be able to answer other peoples’ questions too.</p>
-<h2 id="course-policies">Course policies</h2>
+<p>Additionally, we have a class chatroom at <a href="https://gitter.im/byustatsf18/">Gitter</a> where anyone in the class can ask questions and anyone can answer. Ask questions about the readings, Learning Checks, lectures, or problem sets <a href="https://gitter.im/MPA-MPP-Stats/community">in the class Gitter</a>. I will monitor the chatroom regularly, and you should also all do so as well. You’ll likely have similar questions as your peers, and you’ll likely be able to answer other peoples’ questions too.</p>
+<h3 id="course-policies">Course policies</h3>
 <p><span class="newthought">Be nice. Be honest. Don’t cheat.</span></p>
-<p>We will also follow the <a href="https://marriottschool.byu.edu/policies/classroom/">full list of Marriott School and BYU classroom policies</a>.</p>
-<h3 id="counseling-and-psychological-services-caps">Counseling and Psychological Services (CAPS)</h3>
-<p>Life at BYU can be complicated and challenging. You might feel overwhelmed, experience anxiety or depression, or struggle with relationships or family responsibilities. <a href="https://caps.byu.edu/">Counseling and Psychological Services (CAPS)</a> provides free, <em>confidential</em> support for students who are struggling with mental health and emotional challenges. The CAPS office is staffed by professional psychologists who are attuned to the needs of all types of college and professional students. Please do not hesitate to contact CAPS for assistance—getting help is a smart and courageous thing to do.</p>
-<h3 id="basic-needs-security">Basic needs security</h3>
-<p>If you have difficulty affording groceries or accessing sufficient food to eat every day, or if you lack a safe and stable place to live, and you believe this may affect your performance in this course, please contact the <a href="https://deanofstudents.byu.edu/">Dean of Students</a> for support. Please also consider speaking with your local LDS bishop regarding Church welfare assistance <em>regardless of whether or not you are LDS</em>. Additionally, please talk to me if you are comfortable in doing so. This will enable me to provide any resources that I might possess.</p>
-<h3 id="class-conduct-and-expectations">Class conduct and expectations</h3>
+<p>It is my intent that students from all diverse backgrounds and perspectives be well served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Your suggestions are encouraged and appreciated. Please let me know ways to improve the effectiveness of the course for you personally or for other students or student groups. In addition, if any of our class meetings conflict with your religious events, please let me know so that we can make arrangements for you. The following resources and statements are drawn directly from the University of Utah guidelines. If you have questions or concerns not answered below, please contact me directly so we can work together to answer and address them.</p>
+<p>We will also follow the <a href="https://regulations.utah.edu/general/index.php">full list of college and university policies</a>.</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Accommodation of Sincerely Held Beliefs</em>: I will work with students who require schedule changes due to religious or other significant obligations. I will not consider any requests based on course content. No other area of study touches on more sensitive topics than the broad category of “public policy” (and at times disturbing forms of human misbehavior such as criminal law). Policy researchers must read about, talk about, and listen to information relating to very difficult subjects. Sometimes case descriptions can be quite graphic. Students are required to attend all classes and to read all the assignments. All assignments and lectures are related to our subject matter.</p></li>
+<li><p><em>The Americans with Disabilities Act</em>. The University of Utah seeks to provide equal access to its programs, services, and activities for people with disabilities. If you will need accommodations in this class, reasonable prior notice needs to be given to the <a href="https://disability.utah.edu/">Center for Disability Services</a>, 162 Olpin Union Building, (801) 581-5020. CDS will work with you and the instructor to make arrangements for accommodations. All written information in this course can be made available in an alternative format with prior notification to the Center for Disability Services.</p></li>
+<li><p><em>University Safety Statement</em>. The University of Utah values the safety of all campus community members. To report suspicious activity, call campus police at 801-585-COPS (801-585-2677). You will receive important emergency alerts and safety messages regarding campus safety via text message. For more information regarding safety and to view available training resources, including helpful videos, visit safeu.utah.edu.</p></li>
+<li><p><em>Addressing Sexual Misconduct</em>. Title IX makes it clear that violence and harassment based on sex and gender (which Includes sexual orientation and gender identity/expression) is a civil rights offense subject to the same kinds of accountability and the same kinds of support applied to offenses against other protected categories such as race, national origin, color, religion, age, status as a person with a disability, veteran’s status or genetic information. If you or someone you know has been harassed or assaulted, you are encouraged to report it to the Title IX Coordinator in the Office of Equal Opportunity and Affirmative Action, 135 Park Building, 801-581-8365, or the Office of the Dean of Students, 270 Union Building, 801-581-7066. For support and confidential consultation, contact the Center for Student Wellness, 426 SSB, 801-581-7776. To report to the police, contact the Department of Public Safety, 801-585-2677(COPS).</p></li>
+</ol>
+<h4 id="class-conduct-and-expectations">Class conduct and expectations</h4>
 <p>On the first day of class, we came up a few specific rules, expectations, and policies for the course:</p>
 <ul>
 <li>Late work will be penalized by 10% each week it is late (starting the day after it is due)</li>
@@ -295,12 +271,12 @@ f(x) = \dfrac{1}{\sqrt{2\pi}} e^{-\frac12 x^2}
 <li>Be responsible with laptop use.</li>
 <li>Be good and respectful. You’re all adults.</li>
 </ul>
-<h3 id="laptops">Laptops</h3>
-<p>This is a computer-heavy course and each class session will require extensive laptop use. Occasionally I may ask that laptops be closed for some in-class activities, you will be expected to use your computer. Please note that this is different from the laptop policy in other Romney Institute classes. Use your computer responsibly in class.</p>
-<h3 id="teams">Teams</h3>
+<h4 id="laptops">Laptops</h4>
+<p>This is a computer-heavy course and each class session will require extensive laptop use. Use your computer responsibly in class.</p>
+<h4 id="teams">Teams</h4>
 <p>This class is team-based. In-class activities will be done largely in teams. Your problem sets will be turned in individually, but you can (and should!) work on them together in your assigned teams. Your final project will be completed and turned in as a team.</p>
 <p>Please follow all the best practices you learned in Organizational Behavior to ensure that your team works well and that there is no free riding.</p>
-<h2 id="assignments-and-grades">Assignments and grades</h2>
+<h3 id="assignments-and-grades">Assignments and grades</h3>
 <p><span class="newthought">You can find descriptions</span> for all the assignments on the <a href="/assignments/">assignments page</a>.</p>
 <table style="width:65%;">
 <colgroup>
@@ -317,12 +293,12 @@ f(x) = \dfrac{1}{\sqrt{2\pi}} e^{-\frac12 x^2}
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Preparation (≈ 10.5 × 14)</td>
+<td align="left">Preparation (˜ 10.5 × 14)</td>
 <td align="center">150</td>
 <td align="center">14.6%</td>
 </tr>
 <tr class="even">
-<td align="left">Problem sets (7 × 40)</td>
+<td align="left">Problem sets (7 Ã— 40)</td>
 <td align="center">280</td>
 <td align="center">27.2%</td>
 </tr>
@@ -354,7 +330,7 @@ f(x) = \dfrac{1}{\sqrt{2\pi}} e^{-\frac12 x^2}
 <tr class="even">
 <td align="left">Total</td>
 <td align="center">1030</td>
-<td align="center">—</td>
+<td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -378,47 +354,69 @@ f(x) = \dfrac{1}{\sqrt{2\pi}} e^{-\frac12 x^2}
 <tbody>
 <tr class="odd">
 <td align="left">A</td>
-<td align="center">93–100%</td>
+<td align="center">93â€“100%</td>
 <td align="left">C</td>
-<td align="center">73–76%</td>
+<td align="center">73â€“76%</td>
 </tr>
 <tr class="even">
-<td align="left">A−</td>
-<td align="center">90–92%</td>
-<td align="left">C−</td>
-<td align="center">70–72%</td>
+<td align="left">A-</td>
+<td align="center">90â€“92%</td>
+<td align="left">C-</td>
+<td align="center">70â€“72%</td>
 </tr>
 <tr class="odd">
 <td align="left">B+</td>
-<td align="center">87–89%</td>
+<td align="center">87â€“89%</td>
 <td align="left">D+</td>
-<td align="center">67–69%</td>
+<td align="center">67â€“69%</td>
 </tr>
 <tr class="even">
 <td align="left">B</td>
-<td align="center">83–86%</td>
+<td align="center">83â€“86%</td>
 <td align="left">D</td>
-<td align="center">63–66%</td>
+<td align="center">63â€“66%</td>
 </tr>
 <tr class="odd">
-<td align="left">B−</td>
-<td align="center">80–82%</td>
-<td align="left">D−</td>
-<td align="center">60–62%</td>
+<td align="left">B-</td>
+<td align="center">80â€“82%</td>
+<td align="left">D-</td>
+<td align="center">60â€“62%</td>
 </tr>
 <tr class="even">
 <td align="left">C+</td>
-<td align="center">77–79%</td>
+<td align="center">77â€“79%</td>
 <td align="left">F</td>
 <td align="center">&lt; 60%</td>
 </tr>
 </tbody>
 </table>
-<h2 id="red-pandas">Red pandas</h2>
-<p><span><label for="sn-6" class="margin-toggle">&#8853;</label><input type="checkbox" id="sn-6" class="margin-toggle"/><span class="marginnote">
-<img src="https://media.giphy.com/media/r7Nbr97FsXxXG/giphy.gif" alt="Hungry red panda" /><br />
-<br />
-</span></span> <span class="newthought">Once you have read</span> this entire syllabus and <a href="/assignments/">the assignments page</a>, please <a href="mailto:andrew_heiss@byu.edu">click here</a> and e-mail me a picture of a red panda. For real. Brownie points if it’s animated.</p>
+<h3 id="things-that-are-too-smart-for-their-own-good">Things that are too smart for their own good</h3>
+<p><a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a> <span class="newthought">Once you have read</span> this entire syllabus and <a href="/assignments/">the assignments page</a>, please <a href="mailto:ian.adams@utah.edu">click here</a> and e-mail me a picture of a cute dog. For real. Brownie points if it’s animated.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>{-}
+<span class="fake-header">Instructor</span><br>
+<span class="fake-li"><i class="fas fa-user"></i><a href="https://www.ianadamsresearch.com"> Ian T. Adams</a></span><br>
+<span class="fake-li"><i class="fas fa-university"></i> Homebase</span><br>
+<span class="fake-li"><i class="fas fa-envelope"></i><a href="mailto:ian.adams@utah.edu"> ian.adams@utah.edu</a></span><br>
+<span class="fake-li"><i class="fab fa-twitter"></i><a href="https://twitter.com/LiminalMori"> @LiminalMori</a></span><br>
+<span class="fake-li"><i class="fas fa-users"></i> Office hours: <a href="https://calendly.com/andrewheiss/meeting/">Sign up here.</a><br><br>E-mail is the best way to get in contact with me—I will respond to all course-related e-mails within 24 hours (<em>really</em>).</span><br>
+<br>
+<span class="fake-header">Course</span><br>
+<span class="fake-li"><i class="far fa-calendar"></i> Any Day - Asynchronous</span><br>
+<span class="fake-li"><i class="far fa-calendar-alt"></i> January 19–May 4, 2021</span><br>
+<span class="fake-li"><i class="far fa-clock"></i> Any Time - Asynchronous</span><br>
+<span class="fake-li"><i class="fas fa-university"></i> Online</span><br>
+
+<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>{-} Chester Ismay and Albert Y. Kim, <em>ModernDive: An Introduction to Statistical and Data Sciences via R</em>, version 0.4.0 (2018). [<strong>FREE</strong> <a href="https://moderndive.com/">online</a>]<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>{-} Hadley Wickham and Garrett Grolemund, <em>R for Data Science: Import, Tidy, Transform, Visualize, and Model Data</em> (Sebastopol, California: O’Reilly Media, 2017). [<strong>FREE</strong> <a href="http://r4ds.had.co.nz/">online</a>; Used and new physical copies available at <a href="https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/">Amazon</a>]<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>{-} David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, <em>OpenIntro Statistics</em> (3rd edition, 2017). [<strong>FREE</strong> <a href="https://www.openintro.org/stat/textbook.php?stat_book=os">online</a>; Also available at <a href="https://www.amazon.com/dp/1943450048/">Amazon</a>]<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>{-}
+<img src="https://media.giphy.com/media/eeLD68y0yAzl12KUDH/giphy.gif" alt="Can’t fool a shepherd" /><a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
 
 
     </article>
