@@ -1,15 +1,14 @@
 ---
 title: Syllabus
 slug: syllabus
-citeproc: true
-bibliography: ../static/bib/references.bib
-csl: ../static/bib/chicago-syllabus-no-bib.csl
+citeproc: false
 ---
 
 ```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
 library(dplyr)
 library(tibble)
 library(pander)
+library(tidyverse)
 ```
 
 [^courseinfo]
@@ -71,18 +70,14 @@ This class will expose you to [R](https://cran.r-project.org/)—one of the most
 
 ## Books
 
-- [^md] [**ModernDive**](https://moderndive.com/): ModernDive will be our primary textbook. Please take the time to read the assigned chapters in depth and complete the Learning Checks when possible. 
+- [**ModernDive**](https://moderndive.com/): ModernDive will be our primary textbook. Please take the time to read the assigned chapters in depth and complete the Learning Checks when possible. 
 
-- [^r4ds] [**R for Data Science**](http://r4ds.had.co.nz/): Some of your readings will also come from the free R for Data Science book. Please take the time to read this book carefully as well and walk through the examples in RStudio.
+- [**R for Data Science**](http://r4ds.had.co.nz/): Some of your readings will also come from the free R for Data Science book. Please take the time to read this book carefully as well and walk through the examples in RStudio. Free online, but used and new physical copies available at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
 
-- [^os] [**OpenIntro Statistics**](https://www.openintro.org/stat/textbook.php?stat_book=os): A few of your readings will also come from the free OpenIntro Statistics book.
+- [**OpenIntro Statistics**](https://www.openintro.org/stat/textbook.php?stat_book=os): A few of your readings will also come from the free OpenIntro Statistics book. Free online, but also available at [Amazon](https://www.amazon.com/dp/1943450048/)]
 
-[^md]: {-} Chester Ismay and Albert Y. Kim, *ModernDive: An Introduction to Statistical and Data Sciences via R*, version 0.4.0 (2018). [**FREE** [online](https://moderndive.com/)]
+### Additional Materials
 
-[^r4ds]: {-} Hadley Wickham and Garrett Grolemund, *R for Data Science: Import, Tidy, Transform, Visualize, and Model Data* (Sebastopol, California: O’Reilly Media, 2017). [**FREE** [online](http://r4ds.had.co.nz/); Used and new physical copies available at [Amazon](https://www.amazon.com/R-Data-Science-Hadley-Wickham/dp/1491910399/)]
-
-[^os]: {-} David M. Diez, Christopher D. Barr, and Mine Çetinkaya-Rundel, *OpenIntro Statistics* (3rd edition, 2017). [**FREE** [online](https://www.openintro.org/stat/textbook.php?stat_book=os); Also available at [Amazon](https://www.amazon.com/dp/1943450048/)]
-    
 There will also occasionally be additional articles and videos to read and watch. When this happens, links to these other resources will be included on the reading page for that week.
 
 I also highly recommend subscribing to the [R Weekly newsletter](https://rweekly.org/). This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.
